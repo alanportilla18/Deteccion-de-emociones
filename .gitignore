@@ -1,0 +1,102 @@
+# Dataset - archivos grandes y no necesarios para el código
+fer2013/
+data/
+dataset/
+
+# Gráficas generadas - se pueden regenerar
+graficas/
+*.png
+*.jpg
+*.jpeg
+
+# Entorno virtual
+.venv/
+venv/
+env/
+ENV/
+
+# Modelos entrenados - archivos muy grandes
+models/
+*.h5
+*.hdf5
+*.pkl
+*.model
+
+# Resultados y logs
+results/
+logs/
+*.pdf
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+
+# Archivos del sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos de configuración local
+config.local.py
+settings.local.py
+.env
+.env.local
+
+# Archivos de backup
+*.bak
+*.backup
+
+# TensorBoard logs
+tensorboard_logs/
+tb_logs/
+
+# Archivos de video/imágenes de prueba
+test_images/
+test_videos/
+samples/
+
+# Archivos comprimidos
+*.zip
+*.tar.gz
+*.rar
+*.7z
