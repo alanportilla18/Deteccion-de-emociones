@@ -100,3 +100,5 @@ samples/
 *.tar.gz
 *.rar
 *.7z
+generate_confusion_matrix.py
+train_advanced_model.py
